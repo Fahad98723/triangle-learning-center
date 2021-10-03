@@ -1,0 +1,9 @@
+.banner-container{
+    height: 90vh;
+    background: url('../../images/aaron-burden-6jYoil2GhVk-unsplash.jpg') no-repeat;
+    background-size: cover;
+    color: white;
+}
+.banner-container .col {
+    text-align: center;
+}

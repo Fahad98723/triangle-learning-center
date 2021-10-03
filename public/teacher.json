@@ -1,0 +1,44 @@
+[
+    {
+      "_id": "615a141da30211ed95271bde",
+      "position": "Head Teacher",
+      "image": "http://placehold.it/32x32",
+      "name": "Annabelle Trujillo",
+      "details": "School principals are stewards of learning and managing supervisors of their schools. They provide vision and leadership to all stakeholders in the school and create a safe and peaceful environment to achieve the mission of learning and educating at the highest level."
+    },
+    {
+      "_id": "615a141d8c6a39008f567c13",
+      "position": "Sports Techer",
+      "image": "http://placehold.it/32x32",
+      "name": "Tommie Andrews",
+      "details": "Sports teachers, also known as physical education (PE) teachers, teach students how to live healthy lifestyles by encouraging them to take part in daily exercise and activity through various sports"
+    },
+    {
+      "_id": "615a141d0e280e1c2d4bfd62",
+      "position": "Dance & Music Teacher",
+      "image": "http://placehold.it/32x32",
+      "name": "Diane Buckner",
+      "details": "Dance teachers, also known as physical education (PE) teachers, teach students how to live healthy lifestyles by encouraging them to take part in daily exercise and activity through various sports"
+    },
+    {
+      "_id": "615a141d3d2a1a041ee045f8",
+      "position": "Language & Arts Teacher",
+      "image": "http://placehold.it/32x32",
+      "name": "Helen Hull",
+      "details": "Arts  teachers create lesson plans to instruct their students in general or specialized subjects within mathematics. They prepare math assignments, homework, and tests to impart knowledge and understanding to their students"
+    },
+    {
+      "_id": "615a141d098667c879fec095",
+      "position": "Science Teacher",
+      "image": "http://placehold.it/32x32",
+      "name": "Ferrell Travis",
+      "details": "Science teachers create lesson plans to instruct their students in general or specialized subjects within mathematics. They prepare math assignments, homework, and tests to impart knowledge and understanding to their students"
+    },
+    {
+      "_id": "615a141d2b704a632cbba6a4",
+      "position": "Math Teacher",
+      "image": "http://placehold.it/32x32",
+      "name": "Rice Walker",
+      "details": "Math teachers create lesson plans to instruct their students in general or specialized subjects within mathematics. They prepare math assignments, homework, and tests to impart knowledge and understanding to their students"
+    }
+  ]
