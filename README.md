@@ -1,7 +1,7 @@
-# Triangle LC
+# Triangle Learning Center
 
 ## Demo Link
-[Tirangle Learning Centre](https://trusting-dubinsky-16e05c.netlify.app/)
+[Tirangle LC](https://trusting-dubinsky-16e05c.netlify.app/)
 
 
 * ### `Technologies`
