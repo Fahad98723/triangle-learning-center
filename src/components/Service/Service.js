@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react';
-import { Card, Col, Row } from 'react-bootstrap';
+import { Row } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import Banner from '../Banner/Banner';
+import SimpleService from '../SimpleService/SimpleService';
 
 const Service = () => {
     //State declare for all services show in service page
@@ -23,18 +24,10 @@ const Service = () => {
         <h1 className = 'text-center mb-4'>Our Services</h1>
         <Row xs={1} md={4} className="">
             {
-                services.map(service => (<Col className = 'my-4'>
-                <Card>
-                    <Card.Img className = 'card-image' variant="top" src={service.image} />
-                    <Card.Body>
-                        <Card.Title>{service.name}</Card.Title>
-                        <Card.Text>
-                        {service.price}
-                        </Card.Text>
-                        <button className= 'btn btn-success'>Enrole Now</button>
-                    </Card.Body>
-                </Card>
-                </Col>))
+                services.map(service => <SimpleService 
+                    key = {service._id}
+                    service = {service}
+                    ></SimpleService>)
             }
             </Row>
         </div>
