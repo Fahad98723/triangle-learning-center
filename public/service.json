@@ -2,48 +2,56 @@
     {
       "_id": "6159faf7c27afcd87ec121c6",
       "price": "$500",
+      "details" : "The Art lesson are important in workplace, for this reason in Infoisinfo we have selected the best Art training schools for you",
       "image": "https://piggy-rider.s3.ap-south-1.amazonaws.com/sevita-centre-for-arts-primary-image-TAJdODGNbuepYWUH.jpg",
       "name": "Art Lesson"
     },
     {
       "_id": "6159faf70aee9591223d4f91",
       "price": "$260",
+      "details" : "The Language lesson are important in workplace, for this reason in Infoisinfo we have selected the best Language training schools for you",
       "image": "https://st2.depositphotos.com/1018611/11767/i/950/depositphotos_117670040-stock-photo-kids-greeting-in-different-languages.jpg",
       "name": "Language Lesson"
     },
     {
       "_id": "6159faf7ae6ddddedbfd9f05",
       "price": "$100",
+      "details" : "The Sports lesson are important in workplace, for this reason in Infoisinfo we have selected the best Sports training schools for you",
       "image": "https://mybayutcdn.bayut.com/mybayut/wp-content/uploads/Kids-Gyms-in-Dubai-Cover-11-02.jpg",
       "name": "Sports Lesson"
     },
     {
       "_id": "6159faf75145b4c414d33b93",
       "price": "$255",
+      "details" : "The Music lesson are important in workplace, for this reason in Infoisinfo we have selected the best Music training schools for you",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJBOpnEhdTBUar9HNiQRCcGBmuM7i5ApBhwg&usqp=CAU",
       "name": "Music Lesson"
     },
     {
       "_id": "6159faf7ca30cb772c2405d8",
       "price": "$196",
+      "details" : "The Dance lesson are important in workplace, for this reason in Infoisinfo we have selected the best Dance training schools for you",
       "image": "https://media.istockphoto.com/photos/children-dancing-contemp-in-studio-smiling-and-having-fun-picture-id967041640?k=20&m=967041640&s=612x612&w=0&h=AuF4n4ptj2tHm0UjEV1fa2_EYVhOH7GMXcwEQz-5Nl4=",
       "name": "Dance Lesson"
     },
     {
       "_id": "6159faf7973b7f0ce92f01fd",
       "price": "$288",
+      "details" : "The Math lesson are important in workplace, for this reason in Infoisinfo we have selected the best Math training schools for you",
       "image": "https://swingeducation.com/wp-content/uploads/2019/03/AdobeStock_93012084-846x520.jpg",
       "name": "Math Lesson"
     },
     {
       "_id": "6159faf7973b7f0ce92f01fd",
       "price": "$188",
+      "details" : "The Sccience or Experiment lesson are important in workplace, for this reason in Infoisinfo we have selected the best Sccience training schools for you",
       "image": "https://previews.123rf.com/images/ilona75/ilona751510/ilona75151000014/47114908-chemical-experiments-in-elementary-school-kids-helped-by-teacher-in-science-class.jpg",
       "name": "Experiment Lesson"
     },
     {
       "_id": "6159faf7973b7f0ce92f01fd",
       "price": "$388",
+      "details" : "The computer courses are important in workplace, for this reason in Infoisinfo we have selected the best computer training schools for you",
       "image": "https://previews.123rf.com/images/michaeljung/michaeljung1307/michaeljung130700854/21184999-group-elementary-school-students-in-computer-class.jpg",
       "name": "Computer Lesson"
     }
