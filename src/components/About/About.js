@@ -7,6 +7,7 @@ import img2 from '../../images/ben-white-83tkHLPgg2Q-unsplash.jpg'
 import img3 from '../../images/neonbrand-zFSo6bnZJTw-unsplash.jpg'
 import img4 from '../../images/ben-mullins-je240KkJIuA-unsplash.jpg'
 import './About.css'
+import Banner from '../Banner/Banner';
 const About = () => {
     //state use for teachers or team members details show 
     const [teachers , setTeachers] = useState([])
@@ -16,8 +17,10 @@ const About = () => {
         .then(data => setTeachers(data))
     },[])
     return (
-        <div className = 'container py-5'>
-            <SimpleAbout/>
+        <div>
+            <Banner></Banner>
+            <div className = 'container py-5'>
+            <SimpleAbout></SimpleAbout>
             <div className="about-heading text-center">
                 <h4>The Team</h4>
                 <h1>Meet Our Team</h1>
@@ -49,6 +52,7 @@ const About = () => {
                     </div>
                 </div>
             </div>
+        </div>
         </div>
     );
 };

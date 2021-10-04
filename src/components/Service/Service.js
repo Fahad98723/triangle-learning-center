@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Card, Col, Row } from 'react-bootstrap';
+import Banner from '../Banner/Banner';
 
 const Service = () => {
     //State declare for all services show in service page
@@ -10,6 +11,9 @@ const Service = () => {
         .then(data => setSevices(data))
     },[])
     return (
+        
+        <div>
+        <Banner></Banner>
         <div className= 'container py-5'>
         <h1 className = 'text-center mb-4'>Our Services</h1>
         <Row xs={1} md={4} className="">
@@ -28,6 +32,7 @@ const Service = () => {
                 </Col>))
             }
             </Row>
+        </div>
         </div>
     );
 };

@@ -1,10 +1,13 @@
 import React from 'react';
 import { Card, Col, Form, Row } from 'react-bootstrap';
 import contactImg from '../../images/undraw_Contract_re_ves9.png'
+import Banner from '../Banner/Banner';
 import './Contact.css'
 const Contact = () => {
     return (
-        <div className="container py-5">
+        <div>
+            <Banner></Banner>
+            <div className="container py-5">
             <div className="row">
             <div className="col-lg-8">
             <Form>
@@ -76,6 +79,7 @@ const Contact = () => {
            </Card>
         </div>
     </div>
+        </div>
     );
 };
 
