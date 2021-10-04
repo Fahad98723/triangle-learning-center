@@ -11,7 +11,6 @@ import Footer from './components/Footer/Footer';
 import About from './components/About/About';
 import Contact from './components/Contact/Contact';
 import PageNotFOund from './components/PageNotFound/PageNotFOund';
-import Service from './components/Service/Service';
 import Services from './components/Services/Services';
 
 function App() {
