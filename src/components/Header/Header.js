@@ -8,7 +8,7 @@ const Header = () => {
         <div>
            <Navbar fixed = 'top' bg="dark" variant="dark" className = 'navigation'>
                 <Container>
-                    <Navbar.Brand className='fs-2 logo' to="/home">Triangle  LC</Navbar.Brand>
+                    <NavLink className='fs-2 logo' to="/home">Triangle  LC</NavLink>
                     <Nav className="ms-auto">
                     <NavLink to="/home">Home</NavLink>
                     <NavLink to="/about">About</NavLink>

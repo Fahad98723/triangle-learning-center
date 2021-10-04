@@ -54,7 +54,7 @@ const Contact = () => {
                     <Form.Check type="checkbox" label="Check me out" />
                 </Form.Group>
 
-                <btm className="btn btn-danger">Send</btm>
+                <button className="btn btn-danger">Send</button>
                 </Form>
             </div>
             <div className="col-lg-4">

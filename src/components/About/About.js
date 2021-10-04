@@ -8,6 +8,7 @@ import img3 from '../../images/neonbrand-zFSo6bnZJTw-unsplash.jpg'
 import img4 from '../../images/ben-mullins-je240KkJIuA-unsplash.jpg'
 import './About.css'
 const About = () => {
+    //state use for teachers or team members details show 
     const [teachers , setTeachers] = useState([])
     useEffect(() => {
         fetch('./teacher.json')
@@ -22,11 +23,15 @@ const About = () => {
                 <h1>Meet Our Team</h1>
                 <p> ‘A teacher is one who makes himself progressively unnecessary.’ –Thomas Carruthers</p>
             </div>
+
+            
             <Row xs={1} md={3} className="">
                 {
                     teachers.map(teacher => <Teacher teacher = {teacher}></Teacher>)
                 }
             </Row>
+
+
             <div className="gallery py-3 text-center">
                 <h1>Students Gallery</h1>
                 <div className="row g-0 mt-3">

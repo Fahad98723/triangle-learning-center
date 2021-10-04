@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import { Row } from 'react-bootstrap';
-import Service from '../Service/Service';
+import SimpleService from '../SimpleService/SimpleService';
 
 const Services = () => {
+    //State declare for home page 4 services part shows
     const [services,setSevices] = useState([])
     useEffect(() => {
         fetch('./service.json')
@@ -14,10 +15,10 @@ const Services = () => {
             <h1 className = 'text-center mb-4'>Our Services</h1>
             <Row xs={1} md={4} className="">
             {
-                services.map(serivce => <Service 
-                    key = {serivce._id}
-                    service = {serivce}
-                    ></Service>)
+                services.slice(0,4).map(service => <SimpleService 
+                    key = {service._id}
+                    service = {service}
+                    ></SimpleService>)
             }
            </Row>
         </div>

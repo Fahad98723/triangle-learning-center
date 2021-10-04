@@ -11,7 +11,7 @@ import Footer from './components/Footer/Footer';
 import About from './components/About/About';
 import Contact from './components/Contact/Contact';
 import PageNotFOund from './components/PageNotFound/PageNotFOund';
-import Services from './components/Services/Services';
+import Service from './components/Service/Service';
 
 function App() {
   return (
@@ -32,7 +32,7 @@ function App() {
             <Contact></Contact>
           </Route>
           <Route  path = '/service'>
-            <Services></Services>
+            <Service></Service>
           </Route>
           <Route  path = '*'>
             <PageNotFOund></PageNotFOund>
