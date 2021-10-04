@@ -4,7 +4,7 @@ import './Footer.css'
 const Footer = () => {
     return (
        <div className = 'bg-dark text-white footer'>
-            <div className = 'container py-5'>
+            <div className = 'container py-4'>
             <div className="row align-items-center">
                 <div className="col-lg-4 text-center">
                     <h3>About Us</h3>
@@ -23,9 +23,9 @@ const Footer = () => {
                 </div>
                 <div className="col-lg-4 text-center">
                     <h3>Contact</h3>
-                    <h4><i className="fas fa-phone"></i> : 0645031350</h4>
-                    <h4><i className="fas fa-phone"></i> : 100031350</h4>
-                    <h4><i className="fas fa-map-marked-alt"></i> : 3D.Road,Ishfahan,Iran</h4>
+                    <h4><i className="fas fa-phone"></i> : +1 543 6942 360</h4>
+                    <h4><i className="fas fa-phone"></i> : +1 242 4942 290</h4>
+                    <h4><i className="fas fa-map-marked-alt"></i> : 34 Street Name, City Name Here, United States</h4>
                 </div>
             </div>
         </div>

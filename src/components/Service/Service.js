@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Card, Col, Row } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import Banner from '../Banner/Banner';
 
 const Service = () => {
@@ -13,7 +14,11 @@ const Service = () => {
     return (
         
         <div>
-        <Banner></Banner>
+        <Banner>
+            <Link to = '/contact'>
+            <button  className = 'btn btn-warning fw-bold fs-4 px-3'>Contact Us</button>
+            </Link>
+        </Banner>
         <div className= 'container py-5'>
         <h1 className = 'text-center mb-4'>Our Services</h1>
         <Row xs={1} md={4} className="">

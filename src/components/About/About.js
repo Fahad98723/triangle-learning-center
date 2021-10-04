@@ -8,6 +8,7 @@ import img3 from '../../images/neonbrand-zFSo6bnZJTw-unsplash.jpg'
 import img4 from '../../images/ben-mullins-je240KkJIuA-unsplash.jpg'
 import './About.css'
 import Banner from '../Banner/Banner';
+import { Link } from 'react-router-dom';
 const About = () => {
     //state use for teachers or team members details show 
     const [teachers , setTeachers] = useState([])
@@ -18,7 +19,11 @@ const About = () => {
     },[])
     return (
         <div>
-            <Banner></Banner>
+            <Banner>
+                <Link to = '/contact'>
+                <button  className = 'btn btn-warning fw-bold fs-4 px-3'>Contact Us</button>
+                </Link>
+            </Banner>
             <div className = 'container py-5'>
             <SimpleAbout></SimpleAbout>
             <div className="about-heading text-center">

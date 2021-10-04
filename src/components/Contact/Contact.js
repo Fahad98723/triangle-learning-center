@@ -1,12 +1,17 @@
 import React from 'react';
 import { Card, Col, Form, Row } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import contactImg from '../../images/undraw_Contract_re_ves9.png'
 import Banner from '../Banner/Banner';
 import './Contact.css'
 const Contact = () => {
     return (
         <div>
-            <Banner></Banner>
+            <Banner>
+                <Link to = '/service'>
+                <button  className = 'btn btn-warning fw-bold fs-4 px-3'>Service</button>
+                </Link>
+            </Banner>
             <div className="container py-5">
             <div className="row">
             <div className="col-lg-8">
