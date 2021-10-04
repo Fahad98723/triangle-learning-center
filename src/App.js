@@ -10,10 +10,13 @@ import {
 import Footer from './components/Footer/Footer';
 import About from './components/About/About';
 import Contact from './components/Contact/Contact';
+import PageNotFOund from './components/PageNotFound/PageNotFOund';
+import Service from './components/Service/Service';
+import Services from './components/Services/Services';
 
 function App() {
   return (
-    <div className="App">
+    <div className="body">
       <Router>
         <Header></Header>
         <Switch>
@@ -28,6 +31,12 @@ function App() {
           </Route>
           <Route  path = '/contact'>
             <Contact></Contact>
+          </Route>
+          <Route  path = '/service'>
+            <Services></Services>
+          </Route>
+          <Route  path = '*'>
+            <PageNotFOund></PageNotFOund>
           </Route>
         </Switch>
         <Footer></Footer>

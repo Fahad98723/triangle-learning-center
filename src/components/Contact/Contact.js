@@ -1,7 +1,7 @@
 import React from 'react';
-import { Col, Form, Row } from 'react-bootstrap';
+import { Card, Col, Form, Row } from 'react-bootstrap';
 import contactImg from '../../images/undraw_Contract_re_ves9.png'
-
+import './Contact.css'
 const Contact = () => {
     return (
         <div className="container py-5">
@@ -60,6 +60,20 @@ const Contact = () => {
             <div className="col-lg-4">
                 <img className = 'img-fluid' src={contactImg} alt="" />
             </div>
+        </div>
+        <div className="contact-info text-center py-5">
+           
+           <Card>
+            <div className="details py-5">
+            <h1>Contact Info</h1>
+                <p>Address : 34 Street Name, City Name Here, United States</p>
+                <p>Phone:
+                +1 242 4942 290</p>
+                <p>Email:
+                info@yourdomain.com
+                </p>
+            </div>
+           </Card>
         </div>
     </div>
     );

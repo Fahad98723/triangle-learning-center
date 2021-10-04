@@ -4,7 +4,7 @@ import { Card, Col } from 'react-bootstrap';
 const Teacher = (props) => {
     const {name,position,details,image} = props.teacher
     return (
-        <Col>
+      <Col className= 'mb-5'>
       <Card>
         <Card.Img variant="top" src={image} />
         <Card.Body>

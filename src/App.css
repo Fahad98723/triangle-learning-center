@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Griffy&family=Miss+Fajardose&family=Poppins&display=swap');
+
+.body{
+    font-family: 'Poppins', sans-serif;
+    background: lavender;
+}
+a:hover{
+    color: goldenrod!important;
+}
+h1{
+    font-family: 'Griffy', cursive;
+    color: goldenrod;
+    font-size: 50px!important;
+}

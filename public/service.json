@@ -31,8 +31,20 @@
     },
     {
       "_id": "6159faf7973b7f0ce92f01fd",
+      "price": "$288",
+      "image": "https://swingeducation.com/wp-content/uploads/2019/03/AdobeStock_93012084-846x520.jpg",
+      "name": "Math Lesson"
+    },
+    {
+      "_id": "6159faf7973b7f0ce92f01fd",
       "price": "$188",
       "image": "https://previews.123rf.com/images/ilona75/ilona751510/ilona75151000014/47114908-chemical-experiments-in-elementary-school-kids-helped-by-teacher-in-science-class.jpg",
       "name": "Experiment Lesson"
+    },
+    {
+      "_id": "6159faf7973b7f0ce92f01fd",
+      "price": "$388",
+      "image": "https://previews.123rf.com/images/michaeljung/michaeljung1307/michaeljung130700854/21184999-group-elementary-school-students-in-computer-class.jpg",
+      "name": "Computer Lesson"
     }
   ]

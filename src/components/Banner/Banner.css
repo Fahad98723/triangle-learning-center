@@ -1,9 +1,16 @@
 .banner-container{
-    height: 90vh;
-    background: url('../../images/aaron-burden-6jYoil2GhVk-unsplash.jpg') no-repeat;
+    height: 100vh;
+    background: linear-gradient(rgb(0, 0, 0,.8),rgba(35, 37, 1, 0.6)), url('../../images/aaron-burden-6jYoil2GhVk-unsplash.jpg') no-repeat;
     background-size: cover;
     color: white;
 }
 .banner-container .col {
     text-align: center;
+    
+}
+.banner-container h1 {
+    font-family: 'Griffy', cursive;
+}
+.btn{
+    padding: 10px 20px;
 }

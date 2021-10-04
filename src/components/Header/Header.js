@@ -6,9 +6,9 @@ import './Header.css'
 const Header = () => {
     return (
         <div>
-           <Navbar bg="dark" variant="dark" className = 'navigation'>
+           <Navbar fixed = 'top' bg="dark" variant="dark" className = 'navigation'>
                 <Container>
-                    <Navbar.Brand className='fs-2' to="/home">Triangle</Navbar.Brand>
+                    <Navbar.Brand className='fs-2 logo' to="/home">Triangle  LC</Navbar.Brand>
                     <Nav className="ms-auto">
                     <NavLink to="/home">Home</NavLink>
                     <NavLink to="/about">About</NavLink>

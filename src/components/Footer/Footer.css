@@ -1,3 +1,6 @@
 .footer-navigation a{
     display: block;
 }
+.footer h3{
+    font-family: 'Griffy', cursive;
+}
