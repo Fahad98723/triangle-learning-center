@@ -12,7 +12,6 @@ const Banner = () => {
                     <Link to = '/contact'>
                     <button  className = 'btn btn-danger fs-4 px-3'>Contact Us</button>
                     </Link>
-
                 </div>
             </div>
             </div>

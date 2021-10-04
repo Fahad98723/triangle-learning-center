@@ -4,6 +4,7 @@ import img1 from '../../images/andrew-ebrahim-zRwXf6PizEo-unsplash.jpg'
 import img2 from '../../images/santi-vedri-O5EMzfdxedg-unsplash.jpg'
 import img3 from '../../images/stephen-andrews-u0zTce7KNlY-unsplash.jpg'
 const SimpleAbout = () => {
+    //home page simple about section 
     return (
         <div className="about-section">
                 <div className="container">

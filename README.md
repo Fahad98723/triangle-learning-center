@@ -10,12 +10,12 @@ In the project i used react and raw css and also used css framework bootstrap.
 
 * ### `Project Work`
 
-This project is  A Learning Kid's School Site. For addmission and online subject or lesson  this project created. people can enrole any lesson or subject in this project for kids.
+This project is  A Learning Kid's School Site. You can enrole their some sevices . And You can find Thier Team or teacher details.
 
 * ### `About Project `
 
-This project is  for kids learning Kid's those are not students of this learning centre they can enrole any lesson if they want to .
-For kids great future they can learn any type of lessons which noted in the site
+Kids who are not students of this learning centre they can enrole any lesson if they want to .
+For kids great future they can learn any type of lessons which noted in the site. We gave our best for a students good future.
 
  * ### `Final Words`
 

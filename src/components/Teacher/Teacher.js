@@ -2,6 +2,7 @@ import React from 'react';
 import { Card, Col } from 'react-bootstrap';
 
 const Teacher = (props) => {
+  //team or teacher details
     const {name,position,details,image} = props.teacher
     return (
       <Col className= 'mb-5'>
