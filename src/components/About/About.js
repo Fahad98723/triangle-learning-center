@@ -35,7 +35,9 @@ const About = () => {
             
             <Row xs={1} md={3} className="">
                 {
-                    teachers.map(teacher => <Teacher teacher = {teacher}></Teacher>)
+                    teachers.map(teacher => <Teacher
+                        kwy = {teacher._id}
+                        teacher = {teacher}></Teacher>)
                 }
             </Row>
 
